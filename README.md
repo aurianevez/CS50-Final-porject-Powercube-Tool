@@ -71,17 +71,15 @@ This is the final project for the CS50 class.  I wanted this project to be meani
     Open visual studio code:  
        
     * In the nav bar click on terminal  and then new terminal. A window should appear at the bottom of the screen  
-    * First we need to make sure that python is set up in the environment. To do so press ctrl+shift+P and tiny windows should open at the top of the screen like this:
-
-<p align="center">
-     <img width ="400" src="setting_python.gif">
-</p>  
-
-<p>  
-	Next:  
-    * Now, we can install Flaks, in the terminal type: pip install Flask and press enter. 
-</p>
-
-
+    * First we need to make sure that python is set up in the environment. To do so press ctrl+shift+P and tiny windows should open at the top of the screen like this:  
+		
+		<p align="center">
+				 <img width ="400" src="setting_python.gif">
+		</p>  
+		
+		Then:  
+		
+		* You can install Flask, in the terminal type: pip install Flask and press enter  
+		
 
 
