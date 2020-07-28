@@ -59,10 +59,12 @@ This is the final project for the CS50 class.  I wanted this project to be meani
 
 <br>
  
-<div>
-     <img align="left" width ="500" src="sqlite_path.gif">
+<p align="center">
+     <img width ="500" src="sqlite_path.gif">
+</p>    
+<p align="center">
      <img align= "right" width ="400" src="environment_variable.gif">  
-</div>
+</p>
 
 <br>
 <br>
@@ -91,6 +93,10 @@ This is the final project for the CS50 class.  I wanted this project to be meani
   <p align="center">
      <img width ="500" src="setting_python.gif">
   </p>
+  
+  <br>
+  
+    * 
       
       
       
