@@ -77,9 +77,9 @@ This is the final project for the CS50 class.  I wanted this project to be meani
 				 <img width ="400" src="setting_python.gif">
 		</p>  
 		
-		Then:  
+	Then:  
 		
-		* You can install Flask, in the terminal type: pip install Flask and press enter  
+	* You can install Flask, in the terminal type: pip install Flask and press enter  
 		
 
 
