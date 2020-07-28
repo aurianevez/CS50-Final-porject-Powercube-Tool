@@ -66,23 +66,6 @@ This is the final project for the CS50 class.  I wanted this project to be meani
      <img width ="400" src="environment_variable.gif">  
 </p>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
 4. You can set up your environment:  
 
     Open visual studio code:  
@@ -93,8 +76,6 @@ This is the final project for the CS50 class.  I wanted this project to be meani
   <p align="center">
      <img width ="500" src="setting_python.gif">
   </p>
-  
-  <br>
   
     * 
       
