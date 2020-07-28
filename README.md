@@ -62,7 +62,7 @@ This is the final project for the CS50 class.  I wanted this project to be meani
      <img align= "right" width ="400" src="environment_variable.gif">  
 </div>
 
-(space, space)  
+
 
    4. You can set up your environment:
        
