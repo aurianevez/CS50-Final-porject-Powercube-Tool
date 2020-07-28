@@ -46,16 +46,16 @@ This is the final project for the CS50 class.  I wanted this project to be meani
         pip 20.1.1 from C:\Program Files\WindowsApps\PythonSoftwareFoundation.
         Python.3.8_3.8.1520.0_x64__qbz5n2kfra8p0\lib\site-packages\pip (python 3.8)
         ```
-  3. You need to install sqlite3
+3. You need to install sqlite3
       
-      On Windows:
+     On Windows:
       
-      * Go to the Sqlite [download page](https://www.sqlite.org/download.html):
+     * Go to the Sqlite [download page](https://www.sqlite.org/download.html):
       
-      * In the download page go to the Precompiled Binaries for Windows - Download the 32 or 64 bit - for SQLite version 3.x.x. depending on your computer. - it will download as a zip folder
-      * Go to the explorer - in Local Disck (C:) create a new foler called sqlite. Once you have created the folder, extract and copy the elements that are in the zip folder and past them in the sqlite folder you just created. You should have: qlite3.def, sqlite3.dll and sqlite3.exe files.
+     * In the download page go to the Precompiled Binaries for Windows - Download the 32 or 64 bit - for SQLite version 3.x.x. depending on your computer. - it will download as a zip folder
+     * Go to the explorer - in Local Disck (C:) create a new foler called sqlite. Once you have created the folder, extract and copy the elements that are in the zip folder and past them in the sqlite folder you just created. You should have: qlite3.def, sqlite3.dll and sqlite3.exe files.
       
-      * Now you need to add a PATH in the system environment. To do so, in your search bar search the program(already in your computer): "Edit the system environement variables". Once it is open, click on environment variable button at the bottom of the tiny window - In system variables slect PATH and edit (right picture bellow) - click on new and write the path that you can copy from the folder file (C:\sqlite - see in the left picture bellow)
+     * Now you need to add a PATH in the system environment. To do so, in your search bar search the program(already in your computer): "Edit the system environement variables". Once it is open, click on environment variable button at the bottom of the tiny window - In system variables slect PATH and edit (right picture bellow) - click on new and write the path that you can copy from the folder file (C:\sqlite - see in the left picture bellow)
 
 <br>
  
@@ -80,12 +80,15 @@ This is the final project for the CS50 class.  I wanted this project to be meani
 <br>
 <br>
 <br>
-    4. You can set up your environment:  
-        In visual studio code:  
-            * Open visual studio code   
-            * in the nav bar click on terminal  and then new terminal. A window should appear at the bottom of the screen  
-            * First we need to make sure that python is set up in the environment. To do so press ctrl+shit+D and tiny windows should open at the top of the screen like this:
-  
+
+4. You can set up your environment:  
+
+    In visual studio code:  
+    
+    * Open visual studio code   
+    * in the nav bar click on terminal  and then new terminal. A window should appear at the bottom of the screen  
+    * First we need to make sure that python is set up in the environment. To do so press ctrl+shit+D and tiny windows should open at the top of the screen like this:
+
   <p align="center">
      <img width ="500" src="setting_python.gif">
   </p>
