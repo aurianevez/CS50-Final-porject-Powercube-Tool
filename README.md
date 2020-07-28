@@ -59,10 +59,12 @@ This is the final project for the CS50 class.  I wanted this project to be meani
       
 
      <img align="left" width ="500" src="sqlite_path.gif">
-     <img align= "right" width ="400" src="environment_variable.gif">
+     <img align= "right" width ="400" src="environment_variable.gif">  
      
    
    
+     
+     
    4. You can set up your environment:
        
        * Open visual studio code
