@@ -55,13 +55,21 @@ This is the final project for the CS50 class.  I wanted this project to be meani
       * In the download page go to the Precompiled Binaries for Windows - Download the 32 or 64 bit - for SQLite version 3.x.x. depending on your computer. - it will download as a zip folder
       * Go to the explorer - in Local Disck (C:) create a new foler called sqlite. Once you have created the folder, extract and copy the elements that are in the zip folder and past them in the sqlite folder you just created. You should have: qlite3.def, sqlite3.dll and sqlite3.exe files.
       
-      * Now you need to add a PATH in the system environment. To do so, in your search bar search the program(already in your computer): "Edit the system environement variables". Once it is open, click on environment variable button at the bottom of the tiny window - In system variables slect PATH and edit - click on new and write the path that you can copy from the folder file (C:\sqlite - see in the picture bellow)
+      * Now you need to add a PATH in the system environment. To do so, in your search bar search the program(already in your computer): "Edit the system environement variables". Once it is open, click on environment variable button at the bottom of the tiny window - In system variables slect PATH and edit (right picture bellow) - click on new and write the path that you can copy from the folder file (C:\sqlite - see in the left picture bellow)
       
 
      <img align="left" width ="500" src="sqlite_path.gif">
      <img align= "right" width ="400" src="environment_variable.gif">
-
      
+   
+   4. You can set up your environment:
+       
+       * Open visual studio code
+       * in the nav bar click on terminal  and then new terminal. A window should appear at the bottom of the screen
+       * First we need to make sure that python is set up in the environment. To do so press ctrl+shit+D and tiny windows should open at the top of the screen like this:
+  <p align"center">
+     <img align="left" width ="500" src="setting_python".gif">
+  </p>
       
       
       
