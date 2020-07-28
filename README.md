@@ -63,7 +63,7 @@ This is the final project for the CS50 class.  I wanted this project to be meani
      <img width ="500" src="sqlite_path.gif">
 </p>    
 <p align="center">
-     <img align= "right" width ="400" src="environment_variable.gif">  
+     <img width ="400" src="environment_variable.gif">  
 </p>
 
 <br>
