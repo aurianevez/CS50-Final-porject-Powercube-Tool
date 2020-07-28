@@ -63,7 +63,11 @@ This is the final project for the CS50 class.  I wanted this project to be meani
      
    
    
-     
+    
+    
+    
+    
+    
      
    4. You can set up your environment:
        
