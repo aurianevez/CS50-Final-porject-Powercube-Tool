@@ -8,7 +8,7 @@ The purpose of this Flask webapp is to offer a structure that allows the user to
 
 ## Motivation
 
-This is the final project for the CS50 class.  I wanted this project to be meaningful as well as useful. So I decided to link two of my passions which are social and environmental justice with coding! In the past, I have use the power cube to analyse power dynamic created by partcipatory methods for a research project. As I was implementing this framework to my analysis, I created an excel spread sheet to save the different elements of my analysis on the same page, which would allow me to have a global vision of my work. I decided to creat this app in order to facilitate the process of analysing and having a styled result at the end.
+This is the final project for the CS50 class. I wanted this project to be meaningful as well as useful. So I decided to link two of my passions which are social and environmental justice with coding! In the past, I have use the power cube to analyse power dynamic created by partcipatory methods for a research project. As I was implementing this framework to my analysis, I created an excel spread sheet to save the different elements of my analysis on the same page, which would allow me to have a global vision of my work. I decided to creat this app in order to facilitate the process of analysing and having a styled result at the end.
 
 ## Built with
 
@@ -28,10 +28,10 @@ This is the final project for the CS50 class.  I wanted this project to be meani
     On Windows:
     
     * Download the latest version of [Python3.x.x](https://www.python.org/downloads/)
-      __make sur to tick the box ADD python 3.x.x to PATH__  befor you click on Install now!
+      __make sur to tick the box ADD python 3.x.x to PATH__  before you click on Install now!
       
-    * Once you have installed it, open the "Command Prompt" program (that is already in you computer, search it in the search bar :) )
-    *type `python` and press enter - if the instalation worked you should see something like that : 
+    * Once you have installed it, open the "Command Prompt" program (that is already in you computer, search it in the search bar :))
+    * type `python` and press enter - if the instalation worked you should see something like that : 
     
         ```
         Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)] on win32
@@ -70,7 +70,7 @@ This is the final project for the CS50 class.  I wanted this project to be meani
 
     Open visual studio code:  
        
-    * In the nav bar click on terminal  and then new terminal. A window should appear at the bottom of the screen  
+    * In the nav bar click on terminal and then new terminal. A window should appear at the bottom of the screen  
     * First we need to make sure that python is set up in the environment. To do so press ctrl+shift+P and tiny windows should open at the top of the screen like this:  
 		
 	<p align="center">
@@ -79,7 +79,21 @@ This is the final project for the CS50 class.  I wanted this project to be meani
 		
 	Then:  
 		
-	* You can install Flask, in the terminal type: pip install Flask and press enter  
+	* You can install Flask, in the terminal type: `pip install Flask` and press enter  
 		
 
+## Running the webapp in your environment!
+
+__Download the files from the github repro and open them in visual studio__ 
+
+On windows:  
+
+
+
+  If you terminal runs on powershell: 
+  
+  <img width ="700" src="powershell.gif">
+
+  * in the terminal type `$env:FLASK_APP="application.py"` and press enter
+  * still in the terminal type : `python -m flask run` and press enter
 
