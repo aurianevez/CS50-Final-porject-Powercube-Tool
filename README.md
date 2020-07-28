@@ -19,18 +19,18 @@ This is the final project for the CS50 class.  I wanted this project to be meani
 
 ## Getting Started !
 
-### If you are a complete Newbie :
+### If you are a complete Newbie do the following step:
 
-1. You need to download an editor, I personaly use [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432) 
+__1. You need to download an editor, I personaly use [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432)__ 
 
-2. You need to install python3
+__2. You need to install python3
 
     On Windows:
     
     * Download the latest version of [Python3.x.x](https://www.python.org/downloads/)
       __make sur to tick the box ADD python 3.x.x to PATH__  befor you click on Install now!
       
-    * Once you have installed it, open the Command Prompt app (that is already in you computer, search it in the search bar :) 
+    * Once you have installed it, open the "Command Prompt" program (that is already in you computer, search it in the search bar :) )
     *type `python` and press enter - if the instalation worked you should see something like that : 
     
         ```
@@ -40,22 +40,22 @@ This is the final project for the CS50 class.  I wanted this project to be meani
         
      * Still in the Command Prompt app press CTRL Z to exit python
 
-     * Still in the Command Prompt app make sure that pip is install - type `pip -V` and press enter - if the instalation worked you should see something like that:
+     * Still in the Command Prompt app make sure that pip is install - type `pip -V` and press enter - if the instalation worked you should see something like this:
 
         ```
         pip 20.1.1 from C:\Program Files\WindowsApps\PythonSoftwareFoundation.
         Python.3.8_3.8.1520.0_x64__qbz5n2kfra8p0\lib\site-packages\pip (python 3.8)
         ```
-  3. You need to install sqlite3
+  __3. You need to install sqlite3
       
       On Windows:
       
       * Go to the Sqlite [download page](https://www.sqlite.org/download.html):
       
       * In the download page go to the Precompiled Binaries for Windows - Download the 32 or 64 bit - for SQLite version 3.x.x. depending on your computer. - it will download as a zip folder
-      * Go to the explorer - in Local Disck (C:) create a new foler called sqlite extract and copy the element that are in the zip folder you juste downloaded. You should have: qlite3.def, sqlite3.dll and sqlite3.exe files.
+      * Go to the explorer - in Local Disck (C:) create a new foler called sqlite. Once you have created the folder, extract and copy the elements that are in the zip folder and past them in the sqlite folder you just created. You should have: qlite3.def, sqlite3.dll and sqlite3.exe files.
       
-      * Now you need to add a PATH in the system environment. To do so, in your search bar search the program (already in your computer) : Edit the system environement variables. Once it is open, click on environment variable button at the bottom of the tiny window - In system variables slect PATH and edit - click on new and write the path that you can copy from the folder file (C:\sqlite - see in the picture bellow)
+      * Now you need to add a PATH in the system environment. To do so, in your search bar search the program(already in your computer): "Edit the system environement variables". Once it is open, click on environment variable button at the bottom of the tiny window - In system variables slect PATH and edit - click on new and write the path that you can copy from the folder file (C:\sqlite - see in the picture bellow)
       
 
      <img align="left" width ="500" src="sqlite_path.gif">
