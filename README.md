@@ -52,14 +52,14 @@ This is the final project for the CS50 class.  I wanted this project to be meani
       
       * Go to the Sqlite [download page](https://www.sqlite.org/download.html):
       
-      * In the download page go to the Precompiled Binaries for Windows - Download the 32 or 64 bit - for SQLite version 3.x.x. depending on your computer. - it will download as a zip
-      * Go to your document folder on your computer - in Local Disck (C:) creat a new foler called sqlite and copy the element that are in the zip folder you juste downloaded. You should have: qlite3.def, sqlite3.dll and sqlite3.exe files.
+      * In the download page go to the Precompiled Binaries for Windows - Download the 32 or 64 bit - for SQLite version 3.x.x. depending on your computer. - it will download as a zip folder
+      * Go to the explorer - in Local Disck (C:) create a new foler called sqlite extract and copy the element that are in the zip folder you juste downloaded. You should have: qlite3.def, sqlite3.dll and sqlite3.exe files.
       
       * Now you need to add a PATH in the system environment. To do so, in your search bar search the program (already in your computer) : Edit the system environement variables. Once it is open, click on environment variable button at the bottom of the tiny window - In system variables slect PATH and edit - click on new and write the path that you can copy from the folder file (C:\sqlite - see in the picture bellow)
       
-      <img align="left" width="300" src="sqlite_path.gif">
+      <img align="left" width="500" src="sqlite_path.gif"> <img align="right" width="500" src="environment_variable.gif">
      
-      ![](environment_variable.gif)
+     
       
       
       
