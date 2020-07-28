@@ -59,6 +59,8 @@ This is the final project for the CS50 class.  I wanted this project to be meani
       
 <p aling = "center">
       <img align = "center" width = "500" src="sqlite_path.gif"> 
+</p>
+<p aling = "center">
       <img align= "center" width ="500" src="environment_variable.gif">
 </p>
      
