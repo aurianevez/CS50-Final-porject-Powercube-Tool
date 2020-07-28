@@ -57,18 +57,11 @@ This is the final project for the CS50 class.  I wanted this project to be meani
       
       * Now you need to add a PATH in the system environment. To do so, in your search bar search the program(already in your computer): "Edit the system environement variables". Once it is open, click on environment variable button at the bottom of the tiny window - In system variables slect PATH and edit (right picture bellow) - click on new and write the path that you can copy from the folder file (C:\sqlite - see in the left picture bellow)
       
-
+<div>
      <img align="left" width ="500" src="sqlite_path.gif">
      <img align= "right" width ="400" src="environment_variable.gif">  
-     
-   
-   
-    
-    
-    
-    
-    
-     
+</div>
+        
    4. You can set up your environment:
        
        * Open visual studio code
