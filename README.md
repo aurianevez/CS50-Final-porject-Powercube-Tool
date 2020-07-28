@@ -73,9 +73,9 @@ This is the final project for the CS50 class.  I wanted this project to be meani
     * In the nav bar click on terminal  and then new terminal. A window should appear at the bottom of the screen  
     * First we need to make sure that python is set up in the environment. To do so press ctrl+shift+P and tiny windows should open at the top of the screen like this:  
 		
-		<p align="center">
-				 <img width ="400" src="setting_python.gif">
-		</p>  
+	<p align="center">
+		<img width ="400" src="setting_python.gif">
+	</p>  
 		
 	Then:  
 		
