@@ -21,9 +21,9 @@ This is the final project for the CS50 class.  I wanted this project to be meani
 
 ### If you are a complete Newbie do the following step:
 
-__1. You need to download an editor, I personaly use [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432)
+__1. You need to download an editor, I personaly use [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432)__
 
-__2. You need to install python3
+__2. You need to install python3__
 
     On Windows:
     
@@ -46,7 +46,7 @@ __2. You need to install python3
         pip 20.1.1 from C:\Program Files\WindowsApps\PythonSoftwareFoundation.
         Python.3.8_3.8.1520.0_x64__qbz5n2kfra8p0\lib\site-packages\pip (python 3.8)
         ```
-  __3. You need to install sqlite3
+  __3. You need to install sqlite3__
       
       On Windows:
       
