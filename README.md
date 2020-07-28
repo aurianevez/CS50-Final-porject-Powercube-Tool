@@ -43,7 +43,8 @@ This is the final project for the CS50 class.  I wanted this project to be meani
      * Still in the Command Prompt app make sure that pip is install - type `pip -V` and press enter - if the instalation worked you should see something like that:
 
         ```
-        pip 20.1.1 from C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.1520.0_x64__qbz5n2kfra8p0\lib\site-packages\pip (python 3.8)
+        pip 20.1.1 from C:\Program Files\WindowsApps\PythonSoftwareFoundation.
+        Python.3.8_3.8.1520.0_x64__qbz5n2kfra8p0\lib\site-packages\pip (python 3.8)
         ```
   3. You need to install sqlite3
       
@@ -54,7 +55,12 @@ This is the final project for the CS50 class.  I wanted this project to be meani
       * In the download page go to the Precompiled Binaries for Windows - Download the 32 or 64 bit - for SQLite version 3.x.x. depending on your computer. - it will download as a zip
       * Go to your document folder on your computer - in Local Disck (C:) creat a new foler called sqlite and copy the element that are in the zip folder you juste downloaded. You should have: qlite3.def, sqlite3.dll and sqlite3.exe files.
       
-      * Now you need to att a PATH in the system environment. To do so, in your search bar search : Edit the system environement variables. Once it is open, click on environment variable button at the bottom of the tiny window - In system variables slect PATH and edit - click on new and write the path that you can copy from the folder file (C:\sqlite - to get it click in 
+      * Now you need to add a PATH in the system environment. To do so, in your search bar search the program (already in your computer) : Edit the system environement variables. Once it is open, click on environment variable button at the bottom of the tiny window - In system variables slect PATH and edit - click on new and write the path that you can copy from the folder file (C:\sqlite - see in the picture bellow)
+      
+      ![](sqlite_path.gif,  width=100)
+      ![](environment_variable.gif,  width=100)
+      
+      
       
       
        
