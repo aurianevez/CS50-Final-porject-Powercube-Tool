@@ -30,11 +30,18 @@ This is the final project for the CS50 class.  I wanted this project to be meani
     * Download the latest version of [Python3.x.x](https://www.python.org/downloads/)
       __make sur to tick the box ADD python 3.x.x to PATH__  befor you click on Install now!
     * Once you have installed it, open the Command Prompt app (that is already in you computer, search it in the search bar :) )
-      type python and press enter - if the instalation worked you should see something like that : 
+      type `python` and press enter - if the instalation worked you should see something like that : 
       
         ```
         Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)] on win32
         Type "help" "copyright", "credits" or "license" for more information.
         ```
+     * Still in the Command Prompt app press CTRL Z to exit python
+     * Still in the Command Prompt app make sure that pip is install - type `pyp -V` and press enter - if the instalation worked you should see something like that:
+     
+        ```
+        pip 20.1.1 from C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.8_3.8.1520.0_x64__qbz5n2kfra8p0\lib\site-packages\pip (python 3.8)
+        ```
+
 
 
