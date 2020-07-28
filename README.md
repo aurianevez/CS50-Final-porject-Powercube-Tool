@@ -21,7 +21,7 @@ This is the final project for the CS50 class.  I wanted this project to be meani
 
 ### If you are a complete Newbie do the following step:
 
-__1. You need to download an editor, I personaly use [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432)__ 
+__1. You need to download an editor, I personaly use [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432)
 
 __2. You need to install python3
 
