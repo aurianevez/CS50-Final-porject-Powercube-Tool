@@ -80,9 +80,12 @@ This is the final project for the CS50 class.  I wanted this project to be meani
 <br>
 <br>
 <br>
-    4. You can set up your environment:
-       * Open visual studio code
-       * in the nav bar click on terminal  and then new terminal. A window should appear at the bottom of the screen
+    4. You can set up your environment:  
+    
+       * Open visual studio code  
+       
+       * in the nav bar click on terminal  and then new terminal. A window should appear at the bottom of the screen  
+       
        * First we need to make sure that python is set up in the environment. To do so press ctrl+shit+D and tiny windows should open at the top of the screen like this:
   
   <p align="center">
