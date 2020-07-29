@@ -107,7 +107,7 @@ On windows:
   When you start running the app, a database (that will containt your analysis) will be created. Every new analysis and all the modification to existing one will be saved in the database. If you stop running the webapp and run it another day the database (analysis.sqlite3) will be in your folder with all the other files needed to run the app. Therefore you will have access to everything you have saved in the power analysis tool form.
   
   __Extracting your analysis__    
-  * Once you have choosen which analysis to extract and press on the extract button, you will be redirected to a page with you analysis to save it click right, select print, save as a pdf. Dont hesitate to go back in the form analysis and play with extra space to have the final result the way you want :) 
+  * Once you have choosen which analysis to extract and press on the extract button, you will be redirected to a page with your analysis to save it click right, select print, save as a pdf. Dont hesitate to go back in the form analysis and play with extra space to have the final result the way you want :) 
    <p align="center">
   <img width ="700" src="print.gif">
   </p>
