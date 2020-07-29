@@ -144,7 +144,7 @@ On windows:
   <img width ="700" src="/gif readme/print.gif">
   </p>
   
-  ## Acknowledgment and Contact 
+  ## Acknowledgement and Contact 
   
   I would like to thank particularly the support that I have received while creating this project as well as all the stackoverflow contributors !!!!    
   
