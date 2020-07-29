@@ -144,6 +144,12 @@ On windows:
   <img width ="700" src="/gif readme/print.gif">
   </p>
   
+  ## Acknowledgment and Contact 
+  
+  I would like to thank particularly the support that I have received while creating this project as well as all the stackoverflow contributors !!!!    
+  
+  You can contact me at auriane.vez[at]gmail.com, any contribution are welcomed :)
+  
  
   
 
