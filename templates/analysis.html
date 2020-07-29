@@ -1,0 +1,375 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    form filling
+{% endblock %}
+
+{% block main %}
+
+
+<div id ="about-analysis">
+    <div id ="content-analysis">
+        <h2>Power Analysis</h2>
+        <h5>Power Cube Matrix</h5>
+        <br>
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}"> 
+            <div class="title_of_analysis">
+            <h5>Title of your Analysis:</h5>
+            {% if Title[1] == None%}
+            <textarea rows = "1" cols = "70" name = "title_update" wrap="hard" placeholder="Enter the title of your analysis"></textarea>
+            {%else%}
+            <textarea rows = "1" cols = "70" name = "title_update" wrap="hard" placeholder="Enter the title of your analysis">{{Title[0]}}</textarea>
+            {% endif %}
+            <br>
+            <input type="submit" value="save" onclick="show_alert()">
+            </div> 
+        <div class="explanation">
+            <p>Please note that all citations bellows are from the University of Sussex's handhout cited at the end of the form.(Unless stated otherwise) </p>
+        </div>
+        <br>
+        <div class="explanation">
+            <p>Another quick note before you start, make sure to save a field before starting to work in another one. Otherwise, if you save the second 
+                field without saving the first you will lose your entry :(.</p>
+        </div>
+        <br>
+
+        <h5><b>Forms of Power </b></h5>
+        </br>
+        <h6><b>Visible</b></h6>
+        <div class = "explanation">
+        <p>When the power is visible, "the contest over interests is clear in the public space". The visible form of power is also represented by the “formal 
+            decisions-making bodies”(political bodies, local assemblies etc)</p>
+        <p> The assumption behind the visible form of power is that “powerless group can access these decisions-making arenas”. In the sense that “they are able 
+            to share their grievance”. In other words, “visible power, assumes that those decisions-making arena are neutral”…. it assumes that the people have 
+            the resources and agency to make their voice hear”.</p>
+        <p> “By seeing who participate, who wins and who loses in these arenas, you can tell who has the power”. “Whose interest prevail?”, “who’s voice is present?”, 
+            “whose voice are NOT present?”</p>     
+        </div>
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">
+            <div class="title_selected">
+            {% if Forms[1] == None%}
+            <textarea rows = "4" cols = "100" name = "visible" wrap="hard" placeholder="Enter your analysis"></textarea>
+            {%else%}
+            <textarea rows = "4" cols = "100" name = "visible" wrap="hard" placeholder="Enter your analysis">{{Forms[1]}}</textarea>
+            {% endif %}
+            <br>
+            <input type="submit" value="Save" onclick="show_alert()">   
+            </div>
+        </form>
+        <br>
+        <br>
+        <h6><b>Hidden</b></h6>
+        <div class = "explanation">
+            <p>The hidden form of power is when “certain actors are kept from getting to the decisions-making table - issues are kept off the agenda”. 
+                “This is used by certain people in order to maintain their power and their privilege”.</p>
+
+            <p> This exclusion is done through : “Dominant rules and procedures”, “How issues are framed”(i.g.: public policy), “the use of threat of sanctions”.</p>
+
+            <p>”How people are affected negatively by power”</p>
+
+            <p><b>”Even if hidden, people are able to articulate their grievance”. In other words, they are aware of the fact that they are excluded”</b></p>
+
+        </div>
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">
+            {% if Forms[3] == None%}
+            <textarea rows = "4" cols = "100" name = "hidden" wrap="hard" placeholder="Enter your analysis"></textarea>
+            {%else%}
+            <textarea rows = "4" cols = "100" name = "hidden" wrap="hard" placeholder="Enter your analysis">{{Forms[3]}}</textarea>
+            {% endif %}
+            <br>
+            <input type="submit" value="Save" onclick="show_alert()">
+        </form>
+        <br>
+        <br>
+
+        <h6><b>Invisible</b></h6>
+        <div class = "explanation">
+            <p> <b>The invisible form of power represents “the internalization of powerlessness or lack of awareness”. In other words, “awareness of one’s 
+                rights and interests are hidden through the adoption of domination ideologies”</b></p>
+
+            <p> For example people will “internalize the dominant explanation of poverty that tells that poverty is their fault rather than a systemic problem”</p>
+
+        </div>
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">
+            {% if Forms[2] == None%}
+            <textarea rows = "4" cols = "100" name = "invisible" wrap="hard" placeholder="Enter your analysis"></textarea>
+            {%else%}
+            <textarea rows = "4" cols = "100" name = "invisible" wrap="hard" placeholder="Enter your analysis">{{Forms[2]}}</textarea>
+            {% endif %}
+            <br>
+            <input type="submit" value="Save" id="save" onclick="show_alert()">
+        </form>  
+        <br>
+        <br>
+        <br>
+        <h4><b>Levels of Power</b></h4>
+        <div class="explanation">
+            <p>The levels used in the analysis will vary depending on which situation the analysis is applied to. Therefore,
+               the levels have been left out for you to define.</p>
+           
+            <p>Today, with globalization, more than before the levels of power are “multi-layered and multi-polar - that is,
+            it is found across various levels and among state and non-state actors”. Every layer of power are interacting with each other,
+            “opening and closing opportunities”. “In this approach the vertical dimensions of power should also be seen not as a fixed set of categories,
+            but as a flexible, adaptable continuum”.</p>
+         
+            <p>Commonly used levels are <b>Sub-National</b> (“decision making arena at this level are critical points of leverage for holding and
+            challenging power” - ex: used by NGO’s), <b>National</b> (“officially represents citizens in global governmental arenas”) and <b>Supra-National</b>
+            (Global governance). </p>
+           
+            <p>"There are many other levels of power, if you understand them across a vertical continuum from the very micro and personal to the more macro and global.
+                While we have focused on these three levels, <b>spectrum can include family, households, the individual person, organizations, regions, provinces </b>.
+                It can correspond to a country’s administrative structures. It can also reflect places that people experience as being divided along linguistic, ethnic,
+                racial, or political/electoral divides."</p>
+        </div>
+        <div class ="explanation_special">
+            <p>(However, the perspective of the influence of globalization may vary. I highly recommend you to read <b>Our Sea of Islands (1994) from Hau’ofa, E</b>.
+                This paper explains that long before what we call globalization, those island nations were trading from island to island and their territory was the 
+                land and the ocean. However, once western nations started to define countries and their “worth” in terms of land and GDP, those nations were shrunk and 
+                categorized as “poor” in the western globalized world perspective, even though their trade system had been going on for so many years before what we call 
+                globalisation and producing wealth - this highlight also the power of the western perspective….)</p>
+        </div>
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}"> 
+            <div class="level_area">
+                {% if Levels[1] == None%}
+                <h6><textarea rows = "1" cols = "25" name = "level_1_chosen" placeholder="level of power/update" id = "chosen_level"></textarea></h6>
+                {%else%}
+                <h6><textarea rows = "1" cols = "25" name = "level_1_chosen" placeholder="level of power/update" id = "chosen_level">{{Levels[1]}}</textarea></h6>
+                {%endif%}
+                <input type="submit" value="Save" onclick="show_alert()">
+            </div>   
+        </form>
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">
+            {% if Levels[2] == None%}
+            <textarea rows = "4" cols = "100" name = "level_1" wrap="hard" placeholder="Enter your analysis"></textarea>
+            {%else%}
+            <textarea rows = "4" cols = "100" name = "level_1" wrap="hard" placeholder="Enter your analysis">{{Levels[2]}}</textarea>
+            {%endif%}
+            <br>
+            <input type="submit" value="Save" onclick="show_alert()">
+        </form>
+        <br>
+        <br>
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">
+            <div class="level_area">
+                {% if Levels[3] == None%}
+                <h6><textarea rows = "1" cols = "25" name = "level_2_chosen" placeholder="level of power/update" id = "chosen_level"></textarea></h6>
+                {%else%}
+                <h6><textarea rows = "1" cols = "25" name = "level_2_chosen" placeholder="level of power/update" id = "chosen_level">{{Levels[3]}}</textarea></h6>
+                {%endif%}
+                <input type="submit" value="Save" onclick="show_alert()">
+            </div> 
+        </form> 
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">
+            {% if Levels[4] == None%}
+            <textarea rows = "4" cols = "100" name = "level_2" wrap="hard" placeholder="Enter your analysis"></textarea>
+            {%else%}
+            <textarea rows = "4" cols = "100" name = "level_2" wrap="hard" placeholder="Enter your analysis">{{Levels[4]}}</textarea>
+            {%endif%}
+            <br>
+            <input type="submit" value="Save" onclick="show_alert()">
+        </form>
+        <br>
+        <br>
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">
+            <div class="level_area">
+                {% if Levels[5] == None%}
+                <h6><textarea placeholder="level of power/update" rows = "1" cols = "25" name = "level_3_chosen" id = "chosen_level"></textarea></h6>
+                {%else%}
+                <h6><textarea placeholder="level of power/update" rows = "1" cols = "25" name = "level_3_chosen" id = "chosen_level">{{Levels[5]}}</textarea></h6>
+                {%endif%}
+                <input type="submit" value="Save" onclick="show_alert()">
+            </div>  
+        </form> 
+      
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">
+            {% if Levels[6] == None%}
+            <textarea rows = "4" cols = "100" name = "level_3" wrap="hard" placeholder="Enter your analysis"></textarea>
+            {%else%}
+            <textarea rows = "4" cols = "100" name = "level_3" wrap="hard" placeholder="Enter your analysis">{{Levels[6]}}</textarea>
+            {%endif%}
+            <br>
+            <input type="submit" value="Save" onclick="show_alert()">
+        </form>
+        <br>
+        <br>
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">
+            <div class="level_area">
+                {% if Levels[7] == None%}
+                <h6><textarea placeholder="level of power/update" rows = "1" cols = "25" name = "level_4_chosen" id = "chosen_level"></textarea></h6>
+                {%else%}
+                <h6><textarea placeholder="level of power/update" rows = "1" cols = "25" name = "level_4_chosen" id = "chosen_level">{{Levels[7]}}</textarea></h6>
+                {%endif%}
+                <input type="submit" value="Save" onclick="show_alert()">
+            </div> 
+        </form>
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">
+            {% if Levels[8] == None%}
+            <textarea placeholder="Enter your analysis" rows = "4" cols = "100" name = "level_4" wrap="hard"></textarea>
+            {%else%}
+            <textarea placeholder="Enter your analysis" rows = "4" cols = "100" name = "level_4" wrap="hard">{{Levels[8]}}</textarea>
+            {%endif%}
+            <br>
+            <input type="submit" value="Save" onclick="show_alert()">  
+        </form>
+        <br>
+        <br>
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">
+            <div class="level_area">
+                {% if Levels[9] == None%}
+                <h6><textarea placeholder="level of power/update" rows = "1" cols = "25" name = "level_5_chosen" id = "chosen_level"></textarea></h6>
+                {%else%}
+                <h6><textarea placeholder="level of power/update" rows = "1" cols = "25" name = "level_5_chosen" id = "chosen_level">{{Levels[9]}}</textarea></h6>
+                {%endif%}
+                <input type="submit" value="Save" onclick="show_alert()">
+            </div>    
+        </form>
+    
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">
+            {% if Levels[10] == None%}
+            <textarea  placeholder="Enter your analysis" rows = "4" cols = "100" name = "level_5" wrap="hard"></textarea>
+            {%else%}
+            <textarea  placeholder="Enter your analysis" rows = "4" cols = "100" name = "level_5" wrap="hard">{{Levels[10]}}</textarea>
+            {%endif%}
+            <br>
+            <input type="submit" value="Save" onclick="show_alert()">
+        </form>  
+        <br>
+        <br>
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">
+            <div class="level_area">
+                {% if Levels[11] == None%}
+                <h6><textarea placeholder="level of power/update" rows = "1" cols = "25" name = "level_6_chosen" id = "chosen_level"></textarea></h6>
+                {%else%}
+                <h6><textarea placeholder="level of power/update" rows = "1" cols = "25" name = "level_6_chosen" id = "chosen_level">{{Levels[11]}}</textarea></h6>
+                {%endif%}
+                <input type="submit" value="Save" onclick="show_alert()">
+            </div> 
+        </form>
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">   
+            {% if Levels[12] == None%}
+            <textarea placeholder="Enter your analysis" rows = "4" cols = "100" name = "level_6" ></textarea>
+            {%else%}
+            <textarea placeholder="Enter your analysis" rows = "4" cols = "100" name = "level_6" >{{Levels[12]}}</textarea>
+            {%endif%}
+            <br>
+            <input type="submit" value="Save" onclick="show_alert()">
+        </form>
+        <br>
+        <br>
+        <br>
+        <h5><b>Spaces of Power </b></h5>
+        <div class = "explanation">
+        <p>In the Power Cube framework, spaces represent decisions-making arena. It “also includes other spaces that are seen as opportunities, 
+            moments and channels where citizens can act to potentially affect policies, discourses, decisions and relationships which affect their 
+            lives and interests”.</p>
+        <br>
+        <p>"Who creates the space is critical to who participates in it." Indeed,"closed space which are being challenged, may seek to restore legitimacy 
+            by creating invited space"</p>
+        <br>
+        <p>Overall, "spaces must be seen like a spectrum" close |---------------| open. </p>
+        </div>
+        </br>
+        <h6><b>Closed</b></h6>
+        <div class ="explanation">
+        <p>“Closed spaces are where elites such as politicians, bureaucrats, experts, bosses, managers and leaders make decisions with little broad 
+            consultation or involvement”. Note that “closed spaces also exists – and often predominate – in workplace, organization and social movement”!</p>
+        </div>
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">
+            {% if Spaces[1] == None%}
+            <textarea placeholder="Enter your analysis" rows = "4" cols = "100" name = "closed" wrap="hard"></textarea>
+            {%else%}
+            <textarea placeholder="Enter your analysis" rows = "4" cols = "100" name = "closed" wrap="hard">{{Spaces[1]}}</textarea>
+            {%endif%}
+            <br>
+            <input type="submit" value="Save" onclick="show_alert()"> 
+        </form>
+        <br>
+        <br>
+        <h6><b>Invited spaces</b></h6>
+        <div class ="explanation">
+        <p>In invited spaces people are invited to participate by various kinds of authorities (“government, supra-national agencies or non-governmental 
+            organizations”). However, those spaces require new sets of skills for people who never had any opportunities to participate (i.g. expertise on 
+            key issue, art of public speaking, negotiating, compromise).</p>
+        </div>
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">
+            {% if Spaces[2] == None%}
+            <textarea placeholder="Enter your analysis" rows = "4" cols = "100" name = "invited" wrap="hard"></textarea>
+            {%else%}
+            <textarea placeholder="Enter your analysis" rows = "4" cols = "100" name = "invited" wrap="hard">{{Spaces[2]}}</textarea>
+            {%endif%}
+            <br>
+            <input type="submit" value="Save" onclick="show_alert()">
+        </form>
+        <br>
+        <br>
+        <h6><b>Claimed / Created spaces</b></h6>
+        <div class = "explanation">
+        <p>Created spaces are “claimed by less powerful actors from or against the power holders”. Andrea Cornwall refers to these spaces as ‘organic’ 
+            spaces which emerge ‘out of sets of common concerns or identifications’ and ‘may come into being, as a result of popular mobilization, such as around 
+            identity or issue-based concerns, or may consist of spaces in which like-minded people join together in common pursuits".</p>
+        </div>
+        <form action="/analysis" method="POST">
+            <input type="hidden" id="analysis_id" name="analysis_id" value="{{analysis_id}}">
+            <input type="hidden" id="current_title" name="title_in_database" value="{{title_in_database}}">
+            {% if Spaces[3] == None%}
+            <textarea  placeholder="Enter your analysis" rows = "4" cols = "100" name = "created" wrap="hard"></textarea>
+            {%else%}
+            <textarea  placeholder="Enter your analysis" rows = "4" cols = "100" name = "created" wrap="hard">{{Spaces[3]}}</textarea>
+            {%endif%}
+            <br>
+            <input type="submit" value="Save" onclick="show_alert()">    
+
+            <br>
+            <br>
+            <div class = "explanation">
+            <p><b>Sources</b></p>  
+            <p>University of Sussex, The participation, Power and Social Change team at the institute of development studies. Forms of power. Retrieved from: http://www.powercube.net/.</p> 
+            <p>University of Sussex, The participation, Power and Social Change team at the institute of development studies. Level of power. Retrieved from: http://www.powercube.net/.</p> 
+            <p>University of Sussex, The participation, Power and Social Change team at the institute of development studies. Space of Power. Retrieved from: http://www.powercube.net/.</p> 
+            <p>Hau’ofa, E. 1994. Our Sea of Islands. The Contemporary Pacific 6 (1): 148-61.</p>    
+            </div>
+            <p></p>
+        </form> 
+    </div>
+</div>
+
+
+  
+
+{% endblock %}

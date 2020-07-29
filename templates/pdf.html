@@ -1,0 +1,167 @@
+{% extends "layout_export.html" %}
+
+{% block title %}
+    Export pdf
+{% endblock %}
+
+{% block main %}
+<div id = 'Title_zone'>
+    <h3>{{title}}</h3>  
+</div>
+
+<br>
+
+<div class = layer_forms>
+    <h2>Forms of Power</h2>
+</div>
+
+<div class="container">
+    <div class="sub_form">
+        <div class="sub_title">
+            <h3>Visible</h3>
+        </div>
+        <div class="text">
+        <p>{{Forms[1]}}</p>
+        </div>
+    </div>
+
+    <div class="sub_form">
+        <div class="sub_title">
+            <h3>Invisible</h3>
+        </div>
+        <div class="text">
+            <p>{{Forms[2]}}</p>
+        </div>
+    </div>
+
+    <div class="sub_form">
+        <div class="sub_title">
+            <h3>Hidden</h3>
+        </div>
+        <div class="text">
+            <p>{{Forms[3]}}</p>
+        </div>
+    </div>
+</div>
+
+    <br>
+    <br>
+
+<div class = layer_spaces>
+    <h2>Spaces of Power</h2>
+</div>
+
+<div class="container">
+    <div class="sub_space">
+        <div class="sub_title">
+            <h3>Closed Spaces</h3>
+        </div>
+        <div class="text">
+            <p>{{Spaces[1]}}</p>
+        </div>
+    </div>
+    
+    <div class="sub_space">
+        <div class="sub_title">
+            <h3>Invited Spaces</h3>
+        </div>
+        <div class="text">
+            <p>{{Spaces[2]}}</p>
+        </div>
+    </div>
+    
+    <div class="sub_space">
+        <div class="sub_title">
+            <h3>Created Spaces</h3>
+        </div>
+        <div class="text">
+            <p>{{Spaces[3]}}</p>
+        </div>
+    </div>
+</div>
+
+    <br>
+    <br>
+
+<div class = layer_levels>
+    <h2>Levels of Power</h2>
+</div>
+
+<div class="container">
+    <div class="sub_level">
+        <div class="sub_title">
+            <h3>{{Levels[1]}}</h3>
+        </div>
+        <div class="text">
+            <p>{{Levels[2]}}</p>
+        </div>
+    </div>
+    
+    <div class="sub_level">
+        <div class="sub_title">
+            <h3>{{Levels[3]}}</h3>
+        </div>
+        <div class="text">
+            <p>{{Levels[4]}}</p>
+        </div>
+    </div>
+    
+    <div class="sub_level">
+        <div class="sub_title">
+            <h3>{{Levels[5]}}</h3>
+        </div>
+        <div class="text">
+            <p>{{Levels[6]}}</p>
+        </div>
+    </div>
+    
+    
+    
+    <div class="sub_level_2">
+        <div class="sub_title">
+            {% if Levels[7] is not none%}
+                <h3>{{Levels[7]}}</h3>
+            {%endif%}
+        </div>
+
+        <div class="text">
+        {% if Levels[8] is not none%}
+            <p>{{Levels[8]}}</p>
+        {% endif%}
+        </div>       
+    </div>
+    
+
+
+    <div class="sub_level_2">
+        <div class="sub_title">
+            {% if Levels[9] is not none%}
+                <h3>{{Levels[9]}}</h3>
+            {%endif%}
+        </div>
+            {% if Levels[10] is not none%}
+                <div class="text">
+                    <p>{{Levels[10]}}</p>
+                </div> 
+            {%endif%}
+    </div>
+
+    <div class="sub_level_2">
+        <div class="sub_title">
+            {% if Levels[11] is not none%}
+                <h3>{{Levels[11]}}</h3>
+            {%endif%}
+        </div>
+            {% if Levels[12] is not none%}
+                <div class="text">
+                    <p>{{Levels[12]}}</p>
+                </div>
+            {%endif%}
+    </div>
+</div>
+    
+
+    
+  
+
+{% endblock %}

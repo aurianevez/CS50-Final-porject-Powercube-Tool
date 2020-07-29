@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    create analysis
+{% endblock %}
+
+{% block main %}
+
+<div id="start">
+<h5>Start a new analysis :</h5>
+<form action="/analysis" method="POST">
+        <div class="creat_title">
+            <input type="text" placeholder="Title of your Analysis" name="title" required>
+        </div>
+    <input type="submit" value="Start a new analysis!">   
+</form>
+<br>
+<h4>OR</h4>    
+<br>
+<form action="/analysis" method="POST">
+    <h5>Chose the title  of the analysis you want to work on:</h5>
+    <select class="select" name="title_in_database">
+        <option disabled selected >Chose the title of an analysis</option>
+        {% for Title in Title %}
+            <option value="{{Title[0]}}" >{{Title[0]}}</option>
+        {% endfor %}
+    </select>
+    <br>
+        <input type="submit" value ="Start working on this analysis!">
+</form>
+</div>   
+{% endblock %}

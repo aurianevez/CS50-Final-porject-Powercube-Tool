@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Export
+{% endblock %}
+
+{% block main %}
+
+<div id="export_get">
+<form action="/export" method="POST">
+    <h5>Chose the title of the analysis you want to export:</h5>
+    <br>
+    <select class="select" name="title_in_database">
+        <option disabled selected >Chose the title of an analysis</option>
+        {% for Title_export in Title_export %}
+            <option value="{{Title_export[0]}}" >{{Title_export[0]}}</option>
+        {% endfor %}
+    </select>
+    <br>
+    <br>
+        <input type="submit" value ="Export">
+        <br>
+        <br>
+        <h6><i>Ps: don't hesitate to play with extra space in the form</i></h6>
+        <h6><i>in order to have a good looking pdf ;)</i></h6>
+</form>
+</div>   
+{% endblock %}
