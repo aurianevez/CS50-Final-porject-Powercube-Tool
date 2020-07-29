@@ -25,8 +25,10 @@ This is the final project for the CS50 class. I wanted this project to be meanin
 
 1. You need to download an editor, I personaly use [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=DX_841432)
 
-2. You need to install python3
-
+2. You need to install python3    
+    
+    *The mac version will be added once I'll have access to mac to test the procedure*
+	
     On Windows:
     
     * in your search bar search the "Command Prompt" program (that is already in your computer) - Open it 
