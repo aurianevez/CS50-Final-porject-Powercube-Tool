@@ -27,25 +27,25 @@ This is the final project for the CS50 class. I wanted this project to be meanin
 
     On Windows:
     
-    * Download the latest version of [Python3.x.x](https://www.python.org/downloads/) (at the moment it's python3.8.5 - but this will change that's why i puted x.x.) -
-      __make sur to tick the box ADD python 3.x.x to PATH__  before you click on Install now!
-      
-    * Once you have installed it, open the "Command Prompt" program (that is already in you computer, search it in the search bar :))
-    * type `python` and press enter - if the instalation worked you should see something like that : 
+    * in your search bar search the "Command Prompt" program (that is already in your computer) - Open it 
+    * Once it's open type `python` and press Enter
+    * if python is already install on your computer you should see this message :  
     
-        ```
+    	```
         Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)] on win32
         Type "help" "copyright", "credits" or "license" for more information.
-        ```
-        
-     * Still in the Command Prompt app press CTRL Z to exit python
-
-     * Still in the Command Prompt app make sure that pip is install - type `pip -V` and press enter - if the instalation worked you should see something like this:
+        ``` 
+     * If python is not install the Miscroft Store will open (if not search it in the search bar) and will offer you to download the latest version of python. Click on 	download. Once it's done go back to the "Command Prompt" program and type Python again, you should get the message as cited previously. Make sur you exit python and press CTLR + z and then Enter.
+     
+     * In the "Command Prompt" make sur that pip is instaled, type `pip -V`and press enter. If it's installed you should get the following message:
 
         ```
         pip 20.1.1 from C:\Program Files\WindowsApps\PythonSoftwareFoundation.
         Python.3.8_3.8.1520.0_x64__qbz5n2kfra8p0\lib\site-packages\pip (python 3.8)
-        ```
+        ```   
+	     
+     * You can close the the "Command Prompt" program.  
+     
 3. You need to install sqlite3
       
      On Windows:
