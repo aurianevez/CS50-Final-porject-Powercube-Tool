@@ -78,7 +78,7 @@ This is the final project for the CS50 class. I wanted this project to be meanin
 		<img width ="400" src="setting_python.gif">
 	</p>    
 
-	* If nothing appeared when you typed `Python: select interpretor` , that means we need to install python in visual studio as well, on the left of the screen there is a 	vertical side bar, select the element with four square and type python in the search bar - select the first element called python and click on the tiny bleu square 		install (of course in the gif I don't have install in a bleu button because it is already installed on my computer). Once it's stop execute the previous step, this time you should be able to select an interpretor!
+	* If nothing appeared when you typed `Python: select interpretor`, that means we need to install python in visual studio as well, on the left of the screen there is a 	vertical side bar, select the element with four square and type python in the search bar - select the first element called python and click on the tiny bleu square 		install (of course in the gif I don't the install bleu button because it is already installed on my computer). Once it's stop execute the previous step, this time you should be able to select an interpretor!
 	
 	<p align="center">
 		<img width ="600" src="python_vs.gif">
