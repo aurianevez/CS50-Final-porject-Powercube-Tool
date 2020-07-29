@@ -120,7 +120,7 @@ On windows:
   
   ## Once the webapp is running
   
-  When you start running the app, table in a database (that will containt your analysis) will be created. Every new analysis and all the modification to existing one will be saved in the database. If you stop running the webapp and run it another day the database (analysis.sqlite3) will be in your folder with all the other files needed to run the app. Therefore you will have access to everything you have saved previously.    
+  When you start running the app, table in a database (that will containt your analysis) will be created. Every new analysis and all the modification to existing one will be saved in the database. If you stop running the webapp and run it another day the database (analysis.sqlite3) will be in your folder with all the other files needed to run the app. Therefore you will have access to everything you have saved previously. To stop running the webapp in the terminal press CTRL + C (for crash).     
   
   * If you want to erase all your analysis: 
   	* First you need to stop the webapp if tis running execute CTRL + C in the terminal to stop anything running.
@@ -143,5 +143,7 @@ On windows:
    <p align="center">
   <img width ="700" src="/gif readme/print.gif">
   </p>
+  
+ 
   
 
