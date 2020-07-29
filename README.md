@@ -27,7 +27,7 @@ This is the final project for the CS50 class. I wanted this project to be meanin
 
     On Windows:
     
-    * Download the latest version of [Python3.x.x](https://www.python.org/downloads/)(at the moment it's python3.8.5 - but this will change that's why i puted x.x.)
+    * Download the latest version of [Python3.x.x](https://www.python.org/downloads/) (at the moment it's python3.8.5 - but this will change that's why i puted x.x.) -
       __make sur to tick the box ADD python 3.x.x to PATH__  before you click on Install now!
       
     * Once you have installed it, open the "Command Prompt" program (that is already in you computer, search it in the search bar :))
