@@ -104,7 +104,23 @@ On windows:
   
   ## Once the webapp is running
   
-  When you start running the app, a database (that will containt your analysis) will be created. Every new analysis and all the modification to existing one will be saved in the database. If you stop running the webapp and run it another day the database (analysis.sqlite3) will be in your folder with all the other files needed to run the app. Therefore you will have access to everything you have saved previously.
+  When you start running the app, table in a database (that will containt your analysis) will be created. Every new analysis and all the modification to existing one will be saved in the database. If you stop running the webapp and run it another day the database (analysis.sqlite3) will be in your folder with all the other files needed to run the app. Therefore you will have access to everything you have saved previously.    
+  
+  * If you want to erase all your analysis: 
+  	* First you need to stop the webapp if tis running execute CTRL + C in the terminal to stop anything running.
+	* go into your terminal and type : `sqlite3 analysis.sqlite3` and press enter 
+	* like in the exemple bellow you shoud see that now you are running "in" sqlite3 --> `sqlite>`
+	* you can now type some sqlite query. In this case we want to `DROP TABLE`, in other words delete table. type the following:
+		* `DROP TABLE forms;` press enter
+		* `DROP TABLE levels;`press enter
+		* `DROP TABLE spaces;`press enter
+		* `DROP TABLE users;`press enter
+		* To exit sqlite press CTRL + C or CLTR + Z + ENTER
+	<p align="center">
+  	<img width ="700" src="sqlite_drop.gif">
+  	</p>
+		
+		
   
   __Extracting your analysis__    
   * Once you have choosen which analysis to extract and press on the extract button, you will be redirected to a page with your analysis to save it click right, select print, save as a pdf. Dont hesitate to go back in the form analysis and play with extra space to have the final result the way you want :) 
