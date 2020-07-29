@@ -3,7 +3,7 @@
 The purpose of this Flask webapp is to offer a structure that allows the user to complete its PowerCube analysis directly into a form that contains all the element of the  framework, and to render a styled document of this analysis. 
 
 <p align="center">
-     <img width ="600" src="presentation.gif">
+     <img width ="600" src="/gif readme/presentation.gif">
 </p>    
 
 
@@ -63,10 +63,10 @@ This is the final project for the CS50 class. I wanted this project to be meanin
 <br>
  
 <p align="center">
-     <img width ="500" src="sqlite_path.gif">
+     <img width ="500" src="/gif readme/sqlite_path.gif">
 </p>    
 <p align="center">
-     <img width ="400" src="environment_variable.gif">  
+     <img width ="400" src="/gif readme/environment_variable.gif">  
 </p>
 
 4. Now, You can set up your environment:  
@@ -77,13 +77,13 @@ This is the final project for the CS50 class. I wanted this project to be meanin
     * First we need to make sure that python is set up in the environment. To do so press ctrl+shift+P and tiny windows should open at the top of the screen like in the image bellow and type `Python: select interpretor` (if nothing appear, don't worry, go to the next step :) !):  
 		
 	<p align="center">
-		<img width ="400" src="setting_python.gif">
+		<img width ="400" src="/gif readme/setting_python.gif">
 	</p>    
 
 	* If nothing appeared when you typed `Python: select interpretor`, that means we need to install python in visual studio as well, on the left of the screen there is a 	vertical side bar, select the element with four square and type python in the search bar - select the first element called python and click on the tiny bleu square 		install (of course in the gif I don't the install bleu button because it is already installed on my computer). Once it's stop execute the previous step, this time you should be able to select an interpretor!
 	
 	<p align="center">
-		<img width ="600" src="python_vs.gif">
+		<img width ="600" src="/gif readme/python_vs.gif">
 	</p>   
 	
 	Then:  
@@ -108,14 +108,14 @@ On windows:
 
   If you terminal runs on powershell: 
   <p align="center">
-  <img width ="700" src="powershell.gif">
+  <img width ="700" src="/gif readme/powershell.gif">
 	</p>
 
   * in the terminal type `$env:FLASK_APP="application.py"` and press enter
   * still in the terminal type : `python -m flask run` and press enter
   * Flask will start running and it will provide you a link (http://127.0.0.1:5000/), when you click on it, it will redirect you to the webapp! 
   <p align="center">
-  <img width ="700" src="running.gif">
+  <img width ="700" src="/gif readme/running.gif">
   </p>
   
   ## Once the webapp is running
@@ -133,7 +133,7 @@ On windows:
 		* `DROP TABLE users;`press enter
 		* To exit sqlite press CTRL + C or CLTR + Z + ENTER
 	<p align="center">
-  	<img width ="700" src="sqlite_drop.gif">
+  	<img width ="700" src="/gif readme/sqlite_drop.gif">
   	</p>
 		
 		
@@ -141,7 +141,7 @@ On windows:
   __Extracting your analysis__    
   * Once you have choosen which analysis to extract and press on the extract button, you will be redirected to a page with your analysis to save it click right, select print, save as a pdf. Dont hesitate to go back in the form analysis and play with extra space to have the final result the way you want :) 
    <p align="center">
-  <img width ="700" src="print.gif">
+  <img width ="700" src="/gif readme/print.gif">
   </p>
   
 
