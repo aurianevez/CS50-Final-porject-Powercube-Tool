@@ -81,7 +81,7 @@ This is the final project for the CS50 class. I wanted this project to be meanin
 	* If nothing appeared when you typed `Python: select interpretor` , that means we need to install python in visual studio as well, on the left of the screen there is a 	vertical side bar, select the element with four square and type python in the search bar - select the first element called python and click on the tiny bleu square 		install. Once it's stop execute the previous step, this time you should be able to select an interpretor!
 	
 	<p align="center">
-		<img width ="600" src="python_vs.gif">
+		<img width ="700" src="python_vs.gif">
 	</p>   
 	
 	Then:  
