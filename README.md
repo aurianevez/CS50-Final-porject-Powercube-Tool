@@ -95,7 +95,7 @@ __Download the files from the github repro and open them in visual studio__ :
 
 * In one folder you should have the following elements:  
 	* application.py
-	* a folder called: template
+	* a folder called: templates
 	* a folder called: static
 	* analysis.sqlite3
 * From visual studio code in the nav bar click on file and then open folder select the folder with the cited elements.
