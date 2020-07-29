@@ -98,7 +98,7 @@ On windows:
   * in the terminal type `$env:FLASK_APP="application.py"` and press enter
   * still in the terminal type : `python -m flask run` and press enter
   * Flask will start running and it will provide you a link (http://127.0.0.1:5000/), when you click on it, it will redirect you to the webapp! 
- 	<p align="center">
-	<img width ="700" src="running.gif">
-	</p>
+  <p align="center">
+  <img width ="700" src="running.gif">
+  </p>
 
