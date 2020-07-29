@@ -27,7 +27,7 @@ This is the final project for the CS50 class. I wanted this project to be meanin
 
 2. You need to install python3    
     
-    *The mac version will be added once I'll have access to mac to test the procedure*
+    *The mac version will be added once I'll have access to a mac to test the procedure*
 	
     On Windows:
     
