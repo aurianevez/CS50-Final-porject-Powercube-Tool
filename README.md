@@ -1,4 +1,4 @@
-# CS50-Final-porject-Powercube-Tool
+# CS50-Final-project-Powercube-Tool
 
 The purpose of this Flask webapp is to offer a structure that allows the user to complete its PowerCube analysis directly into a form that contains all the element of the  framework, and to render a styled document of this analysis. 
 
